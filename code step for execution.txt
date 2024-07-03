@@ -1,0 +1,27 @@
+
+1) Make sure your system is connected to the internet
+
+2)Import code
+
+2) mvn sync(reload mvn,clean,install)
+
+3) application yml or application.properties your database name , username and password, port need to check
+
+4) Run below service as per order
+    # Service-registry(Eureka server)
+	# Order-Config-server
+	# payment-service
+	# order-service
+	# service-gateway
+	
+5) Below url is given all instance which are register in service registry
+  http://localhost:8761/	
+  
+  
+ http://localhost:8086/order-config-server/default 
+  
+  
+  
+  
+	
+	
